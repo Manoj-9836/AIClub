@@ -34,7 +34,7 @@ const Workshops = () => {
   useEffect(() => {
     const fetchWorkshops = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/workshops");
+        const res = await fetch("https://aiclub-backend.onrender.com/api/workshops");
         const data = await res.json();
         setWorkshops(data);
       } catch (error) {
