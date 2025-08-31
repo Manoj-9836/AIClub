@@ -1,0 +1,3 @@
+ibrRjoygWM06ZdZv
+AIClub
+mongodb+srv://AIClub:ibrRjoygWM06ZdZv@cluster0.nz2qxwa.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
