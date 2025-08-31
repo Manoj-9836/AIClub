@@ -33,7 +33,7 @@ import {
 import { useToast } from "@/hooks/use-toast";
 import Login from "./Login";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://aiclub-backend.onrender.com/api";
 
 const Admin = () => {
   const navigate = useNavigate();
