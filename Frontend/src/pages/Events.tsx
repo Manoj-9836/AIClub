@@ -34,7 +34,7 @@ const Events = () => {
   useEffect(() => {
     const fetchEvents = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/events");
+        const res = await axios.get("https://aiclub-backend.onrender.com/api/events");
         const mapped = res.data.map((e: any) => ({
           ...e,
           id: e._id,  // map MongoDB _id to id
